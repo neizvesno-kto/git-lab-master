@@ -102,3 +102,7 @@ p = svc.create_payment("alice", Decimal("500.00"))
 svc.confirm_payment(p.payment_id)
 print(p.status)  # PaymentStatus.CONFIRMED
 ```
+
+---
+
+> **римечание:** се денежные суммы используют тип Decimal для точных вычислений. е используйте loat для финансовых расчётов.
