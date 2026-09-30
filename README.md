@@ -35,10 +35,29 @@ git-lab/
 - Python 3.10+
 - Git 2.x
 
-## �����������
+## Инструкция по установке
 
-| �� | ��� |
+1. Клонируйте репозиторий:
+   ```bash
+   git clone https://github.com/username/git-lab-master.git
+   ```
+2. Перейдите в папку проекта:
+   ```bash
+   cd git-lab-master
+   ```
+3. Установите зависимости:
+   ```bash
+   pip install -r requirements.txt
+   ```
+4. Запустите тесты:
+   ```bash
+   pytest
+   ```
+
+## Разработчики
+
+| Имя | Роль |
 |-----|------|
-| ��� ����� | Backend |
-| ���� ������ | Frontend |
-| ������ ������� | DevOps |
+| Иван Иванов | Backend |
+| Мария Петрова | Frontend |
+| Алексей Сидоров | DevOps |
