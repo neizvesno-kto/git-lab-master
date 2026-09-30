@@ -36,6 +36,10 @@ def login(username: str, password: str, user_db: dict) -> Optional[dict]:
     Returns:
         Словарь с данными пользователя при успехе, None при неудаче.
     """
+    # HOTFIX: защита от username типа None и пустой строки (CVE-2026-0001)
+    if not username or not isinstance(username, str):
+        return None
+
     user = user_db.get(username)
     if user is None:
         return None
