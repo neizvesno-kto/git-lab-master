@@ -1,0 +1,36 @@
+# Зависимости Node.js
+node_modules/
+
+# Python кэш
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Временные файлы
+*.log
+*.tmp
+*.temp
+
+# Конфигурации IDE
+.idea/
+.vscode/
+*.suo
+*.user
+*.sln.docstates
+
+# Среды Python
+venv/
+.env
+.venv/
+env/
+
+# Системные файлы
+.DS_Store
+Thumbs.db
+
+# Собранные файлы
+dist/
+build/
+*.egg-info/
