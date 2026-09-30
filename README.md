@@ -34,3 +34,22 @@ git-lab/
 
 - Python 3.10+
 - Git 2.x
+
+## нструкция по установке
+
+1. лонируйте репозиторий:
+   `ash
+   git clone https://github.com/username/git-lab-master.git
+   `
+2. ерейдите в папку проекта:
+   `ash
+   cd git-lab-master
+   `
+3. становите зависимости:
+   `ash
+   pip install -r requirements.txt
+   `
+4. апустите тесты:
+   `ash
+   pytest
+   `
